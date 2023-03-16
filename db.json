@@ -1,0 +1,117 @@
+{
+    "camps" : [
+        {
+            "id" : 1,
+            "title" : "Camp A",
+            "price" : 100,
+            "discription" : "Good views"
+        },
+        {
+            "id" : 2,
+            "title" : "Camp B",
+            "price" : 700,
+            "discription" : "Bad views"
+        },
+        {
+            "id" : 3,
+            "title" : "Camp C",
+            "price" : 1500,
+            "discription" : "night views"
+        },
+        {
+            "id" : 4,
+            "title" : "Camp D",
+            "price" : 1800,
+            "discription" : "sky views"
+        }
+    ],
+    "news" : [
+        {
+            "id" : 1,
+            "title" : "News Article 1",
+            "discription" : "discription 1",
+            "category" : "sports"
+        },
+        {
+            "id" : 2,
+            "title" : "News Article 2",
+            "discription" : "discription 2",
+            "category" : "intertainment"
+        },
+        {
+            "id" : 3,
+            "title" : "News Article 3",
+            "discription" : "discription 3",
+            "category" : "politics"
+        },
+        {
+            "id" : 4,
+            "title" : "News Article 4",
+            "discription" : "discription 4",
+            "category" : "sports"
+        }
+    ],
+    "dashboard" : {
+            "id" : 1,
+            "name" : "Vikas Harge",
+            "Role" : "admin"
+    },
+    "events" : [
+        {
+            "id" : 1,
+            "title" : "Event 1",
+            "description" : "Description 1",
+            "category" : "sports",
+            "date" : "march 23"
+        },
+        {
+            "id" : 2,
+            "title" : "Event 2",
+            "description" : "Description 2",
+            "category" : "sports",
+            "date" : "march 2"
+        },
+        {
+            "id" : 3,
+            "title" : "Event 3",
+            "description" : "Description 3",
+            "category" : "politics",
+            "date" : "nov 23"
+        },
+        {
+            "id" : 4,
+            "title" : "Event 4",
+            "description" : "Description 4",
+            "category" : "technology",
+            "date" : "march 23"
+        },
+        {
+            "id" : 5,
+            "title" : "Event 5",
+            "description" : "Description 5",
+            "category" : "politics",
+            "date" : "march 23"
+        },        
+        {
+            "id" : 6,
+            "title" : "Event 6",
+            "description" : "Description 6",
+            "category" : "science",
+            "date" : "march 23"
+        },        
+        {
+            "id" : 7,
+            "title" : "Event 7",
+            "description" : "Description 7",
+            "category" : "cultural",
+            "date" : "march 23"
+        },
+        {
+            "id" : 8,
+            "title" : "Event 8",
+            "description" : "Description 8",
+            "category" : "science",
+            "date" : "march 23"
+        }
+    ]
+}
