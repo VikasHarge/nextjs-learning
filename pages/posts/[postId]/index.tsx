@@ -14,7 +14,7 @@ const PostDetails = ({ post }: any) => {
 
     return (
         <>
-            <div className='flex flex-col justify-start items-center' >
+            <div className='w-full h-[80vh] flex flex-col justify-center items-center' >
                 <div className='w-6/12' >
                     <h1>PostDetails</h1>
                     <div>

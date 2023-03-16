@@ -4,7 +4,7 @@ import React from 'react'
 
 const Blogs = () => {
   return (
-    <div>
+    <div className='w-full h-[80vh] flex flex-col justify-center items-center' >
         <h1>Welcome to my blogs</h1>
         <LinkTo path='/' title='Back' />
         <LinkTo path='/blogs/firstBlog' title='First Blog' />

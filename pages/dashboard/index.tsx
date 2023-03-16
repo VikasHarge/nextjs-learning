@@ -13,12 +13,12 @@ const Dashboard = () => {
 
     const {data, error, isLoading} = useSWR('dashboard', handleFetch)
 
-    if (error) return <div>failed to load</div>
-    if (isLoading) return <div>loading..</div>
+    if (error) return <div className='w-full h-[80vh] flex flex-col justify-center items-center'>failed to load</div>
+    if (isLoading) return <div className='w-full h-[80vh] flex flex-col justify-center items-center'>loading..</div>
 
 
   return (
-    <div>
+    <div className='w-full h-[80vh] flex flex-col justify-center items-center' >
         <h1>Dashboard</h1>
         <div>
             <h1>ID :  {data.id}</h1>

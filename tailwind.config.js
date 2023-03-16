@@ -13,6 +13,7 @@ module.exports = {
       red : 'red',
       blue : '#2b7eb4',
       white : '#ffff',
+      lightBlue : '#b3d9f2'
     },
     padding : {
       '2x' : '2px',

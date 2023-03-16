@@ -10,7 +10,7 @@ const Reviews = () => {
     const reviewtId = router.query?.productId
 
   return (
-    <div>
+    <div className='w-full h-[80vh] flex flex-col justify-center items-center' >
         <h1>Review no {} of product no {}</h1>
         <LinkTo path='/products' title='Back' />
         <div>

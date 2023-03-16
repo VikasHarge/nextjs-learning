@@ -2,6 +2,8 @@ import CampTable from '@/components/CampTable';
 import LinkTo from '@/components/LinkTo';
 import React from 'react'
 
+import { GetStaticProps } from 'next';
+
 const Camps = ({camps} : any) => {
   return (
     <div>
@@ -17,7 +19,7 @@ const Camps = ({camps} : any) => {
 export default Camps
 
 
-export async function getStaticProps(){
+export const getStaticProps : GetStaticProps = async () => {
     const res = await fetch(`http://localhost:4000/camps`);
 
     const camps = await res.json();

@@ -4,7 +4,7 @@ import React from 'react'
 
 const News = ({newss} : any) => {
     return (
-        <div>
+        <div className='w-full h-[80vh] flex flex-col justify-center items-center' >
             <h1>Latest News</h1>
             <p>(using server-side-rendering SSR)</p>
             <NewsTable newss={newss} />

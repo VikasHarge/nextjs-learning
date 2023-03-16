@@ -15,23 +15,23 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='flex flex-col justify-center items-center' >
-        <h1 className='text-3xl  font-bold mb-6 ' >Next js learning</h1>
-        <div className='flex' >
-        <LinkTo path='/blogs' title='blogs' />
-        <LinkTo path='/products' title='Products' />
-        <LinkTo path='/users' title='Users' />
-        <LinkTo path='/posts' title='Posts' />
-        <LinkTo path='/camps' title='Camps' />
-        <LinkTo path='/news' title='News' />
-        <LinkTo path='/events' title='Events' />
-        <LinkTo path='/dashboard' title='dashboard' />
-        </div>
-
-
-        <h1 className='text-3xl  font-bold mb-6 mt-12 ' >Next js Backend learning</h1>
-        <div className='flex' >
-        <LinkTo path='/comments' title='comments' />
+      <main  className='w-full h-[80vh] flex flex-col justify-center items-center' >
+        <div className=''  >
+          <h1 className='text-3xl  font-bold mb-6 ' >Next js learning</h1>
+          <div className='flex' >
+            <LinkTo path='/blogs' title='blogs' />
+            <LinkTo path='/products' title='Products' />
+            <LinkTo path='/users' title='Users' />
+            <LinkTo path='/posts' title='Posts' />
+            <LinkTo path='/camps' title='Camps' />
+            <LinkTo path='/news' title='News' />
+            <LinkTo path='/events' title='Events' />
+            <LinkTo path='/dashboard' title='dashboard' />
+          </div>
+          <h1 className='text-3xl  font-bold mb-6 mt-12 ' >Next js Backend learning</h1>
+          <div className='flex' >
+            <LinkTo path='/comments' title='comments' />
+          </div>
         </div>
       </main>
     </>

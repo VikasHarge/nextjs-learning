@@ -7,7 +7,7 @@ const AllRoutes = () => {
     console.log(router);
     
     return (
-        <div>
+        <div className='w-full h-[80vh] flex flex-col justify-center items-center' >
             <h1>Catch All routes</h1>
         </div>
     )

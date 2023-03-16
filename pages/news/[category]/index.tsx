@@ -4,7 +4,7 @@ import React from 'react'
 
 const NewsByCategory = ({news, category} : any )  => {
   return (
-    <div>
+    <div className='w-full h-[80vh] flex flex-col justify-center items-center' >
         <h1>News List By Category {category}</h1>
         <NewsTable newss={news} />
         <LinkTo path='/news' title='back' />

@@ -7,7 +7,7 @@ const Products = () => {
     const router = useRouter()
 
   return (
-    <div>
+    <div className='w-full h-[80vh] flex flex-col justify-center items-center' >
         <h1>Select Product</h1>
         <LinkTo path='/' title='Back' />
         <div>

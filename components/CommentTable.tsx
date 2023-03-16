@@ -4,14 +4,13 @@ import React from 'react'
 const CommentTable = ({comments}:any) => {
     const router = useRouter()
 
+
   return (
     <table className='h-6' >
     <thead>
         <tr>
             <th>ID</th>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Price</th>
+            <th>Text</th>
         </tr>
     </thead>
     <tbody>
@@ -20,7 +19,7 @@ const CommentTable = ({comments}:any) => {
 
                 return <tr key={comment.id} className='p-6x'>
                     <td className='p-6x' >{comment.id}</td>
-                    <td className='p-6x' >{comment.title}</td>
+                    <td className='p-6x' >{comment.text}</td>
                 </tr>
             })
         }

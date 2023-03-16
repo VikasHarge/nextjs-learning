@@ -20,7 +20,7 @@ const Events = ({events}:any) => {
 
 
   return (
-    <div>
+    <div className='w-full h-[80vh] flex flex-col justify-center items-center' >
         <h1>Event Table</h1>
         <div>
             <h3>Filter events</h3>

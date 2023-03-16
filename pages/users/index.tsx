@@ -6,7 +6,7 @@ import React from 'react'
 
 const Users = ({ users }: any) => {
     return (
-        <div>
+        <div className='w-full h-[80vh] flex flex-col justify-center items-center' >
             <h1>List of users</h1>
             <UserTable users={users} />
 

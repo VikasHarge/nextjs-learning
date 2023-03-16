@@ -1,4 +1,5 @@
 import LinkTo from '@/components/LinkTo';
+import { GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import React from 'react'
 
@@ -14,7 +15,7 @@ const CampDetail = ({camp} : any) => {
 
 
   return (
-    <div>
+    <div className='w-full h-[80vh] flex flex-col justify-center items-center' >
         <h1>Camp Details</h1>
         <div>
             <p>{camp.id}</p>
@@ -41,7 +42,7 @@ export async function getStaticPaths() {
     
 }
 
-export async function getStaticProps(context : any) {
+export  const getStaticProps : GetStaticProps = async (context : any) => {
 
     const {params} = context
 

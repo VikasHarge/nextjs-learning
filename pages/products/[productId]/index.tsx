@@ -8,7 +8,7 @@ const Product = () => {
   const productId = router.query?.productId
 
   return (
-    <div>
+    <div className='w-full h-[80vh] flex flex-col justify-center items-center' >
       <h1>
         Product no. {productId}
       </h1>
